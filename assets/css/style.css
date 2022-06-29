@@ -1,0 +1,229 @@
+nav .container .navbar-brand {
+  font-weight: 500;
+  font-size: 30px;
+}
+
+nav .container .collapse ul li {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+nav .container .collapse ul li:hover {
+  background-color: red;
+}
+
+nav .container .collapse ul li a.active {
+  background-color: red;
+}
+
+nav .container .collapse ul li.dropdown .dropdown-menu {
+  display: none;
+}
+
+nav .container .collapse ul li.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;
+}
+
+#banner {
+  background-image: url(../img/hero-bg.jpg);
+  padding: 350px 0;
+}
+
+#banner .col-md-6 {
+  margin-left: 350px;
+}
+
+#banner .col-md-6 h1 {
+  font-weight: bold;
+  color: white;
+  font-size: 55px;
+}
+
+#banner .col-md-6 p {
+  color: white;
+  font-size: 28px;
+}
+
+#banner .col-md-6 button {
+  padding: 8px 40px;
+  border-radius: 0%;
+  color: white;
+  border-color: white;
+  border: 3px solid white;
+}
+
+#banner .col-md-6 button:hover {
+  border-color: transparent;
+}
+
+#pricing .container .row .col-md-12 {
+  text-align: center;
+}
+
+#pricing .container .row .col-md-12 h3 {
+  font-weight: 600;
+  font-size: 35px;
+  position: relative;
+  left: 6px;
+}
+
+#pricing .container .row .col-md-12 p {
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+#pricing .container .row .col-md-4 {
+  text-align: center;
+}
+
+#pricing .container .row .col-md-4 .service-item {
+  border: 1px solid transparent;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+#pricing .container .row .col-md-4 .service-item h3.word-free {
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+#pricing .container .row .col-md-4 .service-item p.need-span {
+  color: lightgray;
+}
+
+#pricing .container .row .col-md-4 .service-item p.need-span span.first-span {
+  color: red;
+  font-size: 17px;
+  position: absolute;
+}
+
+#pricing .container .row .col-md-4 .service-item p.need-span span.second-span {
+  color: red;
+  font-size: 50px;
+  position: relative;
+}
+
+#pricing .container .row .col-md-4 .service-item strike {
+  display: block;
+  margin-top: 8px;
+  color: lightgray;
+}
+
+#pricing .container .row .col-md-4 .service-item button {
+  margin-top: 20px;
+  border-radius: 0%;
+  padding: 8px 40px;
+}
+
+#pricing .container .row .col-md-4 .special-item {
+  border: 1px solid transparent;
+  background-color: red;
+  border-radius: 8px;
+  padding: 25px;
+}
+
+#pricing .container .row .col-md-4 .special-item h3.word-free {
+  font-size: 22px;
+  opacity: 0.9;
+  color: white;
+}
+
+#pricing .container .row .col-md-4 .special-item p.need-span {
+  color: lightgray;
+}
+
+#pricing .container .row .col-md-4 .special-item p.need-span span.first-span {
+  color: white;
+  font-size: 17px;
+  position: absolute;
+}
+
+#pricing .container .row .col-md-4 .special-item p.need-span span.second-span {
+  color: white;
+  font-size: 50px;
+  position: relative;
+}
+
+#pricing .container .row .col-md-4 .special-item p.same-p {
+  color: white;
+}
+
+#pricing .container .row .col-md-4 .special-item strike {
+  display: block;
+  margin-top: 8px;
+  color: white;
+}
+
+#pricing .container .row .col-md-4 .special-item button {
+  margin-top: 20px;
+  border-radius: 0%;
+  padding: 8px 40px;
+}
+
+#pricing .container .row .col-md-4 .special-item button:hover {
+  background-color: white;
+  color: red;
+  border-color: transparent;
+}
+
+#team {
+  margin-top: 25px;
+}
+
+#team .container .row .col-md-12 {
+  text-align: center;
+}
+
+#team .container .row .col-md-12 h3 {
+  font-weight: 600;
+  font-size: 35px;
+  position: relative;
+  left: 6px;
+}
+
+#team .container .row .col-md-12 p {
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+#team .container .row .col-md-4 .team-member {
+  border: 1px solid lightgray;
+  background-color: white;
+  padding: 20px 60px;
+  text-align: center;
+}
+
+#team .container .row .col-md-4 .team-member img {
+  border-radius: 50%;
+  width: 250px;
+}
+
+#team .container .row .col-md-4 .team-member h3 {
+  margin-top: 13px;
+}
+
+#team .container .row .col-md-4 .team-member i.text-1 {
+  margin-top: 13px;
+  display: block;
+}
+
+#team .container .row .col-md-4 .team-member i.text-2 {
+  margin-top: 13px;
+  display: block;
+  color: gray;
+  opacity: 0.8;
+}
+
+#team .container .row .col-md-4 .team-member .social {
+  margin-top: 13px;
+}
+
+#team .container .row .col-md-4 .team-member .social a {
+  font-size: 22px;
+  text-decoration: none;
+  color: gray;
+  margin-right: 3px;
+}
+/*# sourceMappingURL=style.css.map */

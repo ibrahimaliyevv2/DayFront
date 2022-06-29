@@ -1,0 +1,256 @@
+nav{
+    .container{
+        .navbar-brand{
+            font-weight: 500;
+            font-size:30px;
+        }
+
+        .collapse{
+            ul{
+                li{
+                    margin-left: 10px;
+                    display: inline-block;
+
+                    &:hover{
+                        background-color: red;
+                    }
+
+                    a.active{
+                        background-color: red;
+                    }
+                }
+
+                li.dropdown{
+                    .dropdown-menu{
+                        display: none;
+                    }
+
+                    &:hover .dropdown-menu{
+                        display: block;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+#banner{
+    background-image: url(../img/hero-bg.jpg);
+    padding: 350px 0;
+    .col-md-6{
+        margin-left: 350px;
+        h1{
+            font-weight: bold;
+            color: white;
+            font-size: 55px;
+        }
+
+        p{
+            color: white;
+            font-size: 28px;
+        }
+
+        button{
+            padding: 8px 40px;
+            border-radius: 0%;
+            color: white;
+            border-color: white;
+            border: 3px solid white;
+
+            &:hover{
+                border-color: transparent;
+            }
+        }
+    }
+}
+
+#pricing{
+    .container{
+        .row{
+            .col-md-12{
+                text-align: center;
+
+                h3{
+                    font-weight: 600;
+                    font-size: 35px;
+                    position: relative;
+                    left: 6px;
+
+                }
+
+                p{
+                    margin-top: 15px;
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .row{
+            
+            .col-md-4{
+                text-align: center;
+                .service-item{
+                    border: 1px solid transparent;
+                    background-color: rgb(247, 247, 247);
+                    border-radius: 8px;
+                    padding: 25px;
+                    h3.word-free{
+                        font-size: 22px;
+                        opacity: 0.9;
+                    }
+
+                    p.need-span{
+                        color: lightgray;
+                        span.first-span{
+                            color: red;
+                            font-size: 17px;
+                            position: absolute;
+                        }
+
+                        span.second-span{
+                            color: red;
+                            font-size: 50px;
+                            position: relative;
+                        }
+                    }
+
+                    p.same-p{
+
+                    }
+
+                    strike{
+                        display: block;
+                        margin-top: 8px;
+                        color: lightgray;
+                    }
+                    
+                    button{
+                        margin-top: 20px;
+                        border-radius: 0%;
+                        padding: 8px 40px;
+                    }
+
+                }
+
+                .special-item{
+                    border: 1px solid transparent;
+                    background-color: red;
+                    border-radius: 8px;
+                    padding: 25px;
+                    h3.word-free{
+                        font-size: 22px;
+                        opacity: 0.9;
+                        color: white;
+                    }
+
+                    p.need-span{
+                        color: lightgray;
+                        span.first-span{
+                            color: white;
+                            font-size: 17px;
+                            position: absolute;
+                        }
+
+                        span.second-span{
+                            color: white;
+                            font-size: 50px;
+                            position: relative;
+                        }
+                    }
+
+                    p.same-p{
+                        color: white;
+                    }
+
+                    strike{
+                        display: block;
+                        margin-top: 8px;
+                        color: white;
+                    }
+                    
+                    button{
+                        margin-top: 20px;
+                        border-radius: 0%;
+                        padding: 8px 40px;
+
+                        &:hover{
+                            background-color: white;
+                            color: red;
+                            border-color: transparent;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+#team{
+    margin-top: 25px ;
+    .container{
+        .row{
+            .col-md-12{
+                
+                text-align: center;
+
+                h3{
+                    font-weight: 600;
+                    font-size: 35px;
+                    position: relative;
+                    left: 6px;
+
+                }
+
+                p{
+                    margin-top: 15px;
+                    opacity: 0.8;
+                }
+            }
+        }
+
+        .row{
+            .col-md-4{
+                .team-member{
+                    border: 1px solid lightgray;
+                    background-color: white;
+                    padding: 20px 60px;
+                    text-align: center;
+                    img{
+                        border-radius: 50%;
+                        width: 250px;
+                    }
+
+                    h3{
+                        margin-top: 13px;
+                    }
+
+                    i.text-1{
+                        margin-top: 13px;
+                        display: block;
+                    }
+
+                    i.text-2{
+                        margin-top: 13px;
+                        display: block;
+                        color: gray;
+                        opacity: 0.8;
+                    }
+
+                  
+
+                    .social{
+                        margin-top: 13px;
+                        a{
+                            font-size: 22px;
+                            text-decoration: none;
+                            color: gray;
+                            margin-right: 3px;
+                        }
+                    }
+                }
+            }
+        }
+}
+}
