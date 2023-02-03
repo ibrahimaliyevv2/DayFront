@@ -82,6 +82,7 @@ nav .container .collapse ul li.dropdown:hover .dropdown-menu {
   background-color: #f7f7f7;
   border-radius: 8px;
   padding: 25px;
+  margin-bottom: 10px;
 }
 
 #pricing .container .row .col-md-4 .service-item h3.word-free {
